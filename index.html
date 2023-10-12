@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Temperature Converter</title>
+    </head>
+    <body>
+     <form>
+        <div class="wrapper">
+                <h1>Temperature Conversion</h1>
+                <div class="converter">
+                    <div class="input-box">
+                        <h6>Celsius</h6>
+                        <input type="number" placeholder="Input" id="inputCelsius">
+                    </div>
+                    <span></span>
+                    <div class="button">
+                        <button class="convert" id="btn-convert" onclick="convert()">Convert</button>
+                        <button class="reset" id="btn-reset" onclick="reset()">Reset</button>
+                        <button class="reverse" id="btn-reverse" onclick="reverse()">Reverse</button>
+                    </div>
+                    <span></span>
+                    <div class="input-box">
+                        <h6>Fahrenheit</h6>
+                        <input type="number" placeholder="Result" id="ouputFahrenheit">
+                    </div>
+                </div>
+                <div class="calculation">
+                    <div>
+                        <h2 class="calc">How to convert Celsius to Fahrenheit</h2>
+                        <p class="math">0 degrees Celsius is equal to 32 degrees Fahrenheit:</p>
+                        <p class="math">0 °C = 32 °F</p>
+                        <p class="math"><i>T</i><sub>(°F)</sub> = <i>T</i><sub>(°C)</sub> * 9/5 + 32 </p>
+                        <p class="math">or</p>
+                        <p class="math"><i>T</i><sub>(°F)</sub> = <i>T</i><sub>(°C)</sub> × 1.8 + 32 </p>
+                    </div>
+        </div>
+        <footer class="footer">Created by Lydia Samuel</footer>
+      </form>
+                <script scr="js/script.js"></script>
+    </body>
+</html>
